@@ -1,0 +1,28 @@
+from transformers import pipeline
+def summarize_text(text, max_length=130, min_length=30):
+    """
+    Generate a concise summary from input text using a pre-trained transformer model.
+    """
+    summarizer = pipeline("summarization", model="facebook/bart-large-cnn")
+    summary = summarizer(text, max_length=max_length, min_length=min_length, do_sample=False)
+    return summary[0]['summary_text']
+def main():
+    print("📄 === AI Text Summarizer ===")
+    print("Paste your text below (end input with a blank line):\n")
+    # Capture multiline user input
+    lines = []
+    while True:
+        line = input()
+        if line.strip() == "":
+            break
+        lines.append(line)
+    input_text = " ".join(lines)
+    if not input_text.strip():
+        print("⚠️ No text provided.")
+        return
+    print("\n⏳ Summarizing...\n")
+    summary = summarize_text(input_text)
+    print("📝 === Summary ===")
+    print(summary)
+if __name__ == "__main__":
+    main()
