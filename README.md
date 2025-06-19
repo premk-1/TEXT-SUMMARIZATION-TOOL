@@ -11,7 +11,7 @@
 
 #output 1
 
-![Image](https://github.com/user-attachments/assets/425ee463-c27c-4280-bd4d-7f003beb60f8)
+![Screenshot 2025-06-19 120704](https://github.com/user-attachments/assets/82ffc294-2bef-4d90-b51d-c103244fc5bc)
 
 #output 2
 
