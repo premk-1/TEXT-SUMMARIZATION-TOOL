@@ -13,7 +13,5 @@
 
 ![Screenshot 2025-06-19 120704](https://github.com/user-attachments/assets/82ffc294-2bef-4d90-b51d-c103244fc5bc)
 
-#output 2
 
-![Screenshot 2025-06-19 001127](https://github.com/user-attachments/assets/d8f2da73-b9e0-417a-845f-597219c91ba9)
 
